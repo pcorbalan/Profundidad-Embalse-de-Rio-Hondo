@@ -60,5 +60,5 @@ with rasterio.open('rio_hondo_profundidad_2001.tif') as src:
 
 ## Autoría
 
-Procesamiento y análisis: [tu nombre/usuario]
-Datos originales: relevamiento batimétrico Río Hondo, julio 2001
+Procesamiento y análisis: Pablo Corbalan.
+Datos originales: Relevamiento batimétrico Río Hondo, julio 2001.
