@@ -24,6 +24,8 @@ from scipy.spatial import cKDTree
 import rasterio
 from rasterio.transform import from_origin
 from rasterio.features import geometry_mask
+from google.colab import drive
+drive.mount('/content/drive')
 
 # ---- 1. Cargar datos ----
 pts = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/rio_hondo_2001_puntos.csv')
